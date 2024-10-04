@@ -486,6 +486,7 @@ main {
 .about-text p { 
   margin-bottom: 15px; 
   text-align: justify;
+  text-justify: inter-word;
 }
 
 
