@@ -1941,3 +1941,35 @@ textarea.form-input::-webkit-resizer { display: none; }
 .prev:hover, .next:hover {
   background-color: rgba(133, 133, 133, 0.8);
 }
+@media (max-width: 768px) {
+  .modal-content {
+    width: 80%;
+    margin: 20% auto;
+  }
+
+  .closebtn {
+    font-size: 30px;
+  }
+
+  .prev, .next {
+    font-size: 30px;
+    padding: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .modal-content {
+    width: 100%;
+    height: auto;
+    margin: 25% auto;
+  }
+
+  .closebtn {
+    font-size: 25px;
+  }
+
+  .prev, .next {
+    font-size: 25px;
+    padding: 10px;
+  }
+}
